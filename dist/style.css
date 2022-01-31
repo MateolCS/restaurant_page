@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa';
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: #7209B7;
+    color: #fff;
+    font-weight: 700;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    padding: 1rem 0.5rem;
+    justify-content: center;
+}
+
+header img{
+    height: 6rem;
+    width: auto;
+}
+
+header h1{
+    padding-top: 2rem;
+}
+
+main{
+    background-color: #3F37C9;
+}
+
+.main-nav{
+    background-color: #B5179E;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+}
+
+.main-nav ul{
+    font-weight: 500;
+    list-style: none;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.main-nav ul li{
+    width: 20%;
+    text-align: center;
+    padding: 1rem;
+}
+
+.main-nav ul li:hover{
+    cursor: pointer;
+    background-color: #4CC9F0;
+}
+
+.content{
+    background-color: #4895EF;
+    width: 80%;
+    height: 71vh;
+    margin: auto;
+}
+
+.container{
+    margin: auto;
+    padding: 4rem;
+    display: flex;
+}
+
+.main-footer{
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    color: #fff;
+    font-size: 1rem;
+    background-color: #7209B7 ;
+    width: 100%;
+
+}
