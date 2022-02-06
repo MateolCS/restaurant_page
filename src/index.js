@@ -1,1 +1,3 @@
-console.log('Dzienki działa')
+import loadWebsite from "./website";
+
+loadWebsite()
